@@ -1,0 +1,13 @@
+.todoList {
+  .todos {
+    max-height: 85vh;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-column-gap: 0.5em;
+    grid-row-gap: 0.5em;
+  }
+  .inputForm {
+    padding-top: 1rem;
+  }
+}

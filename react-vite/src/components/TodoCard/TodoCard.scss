@@ -1,0 +1,17 @@
+.todoCard {
+  margin: 10px;
+  gap: 10px;
+  padding: 10px 10px 20px 10px;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  width: 90%;
+  border: black 1px solid;
+  border-radius: 1rem;
+  button {
+    display: flex;
+    &.disable {
+      display: none;
+    }
+  }
+}
